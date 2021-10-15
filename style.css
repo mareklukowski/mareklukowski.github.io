@@ -1,0 +1,46 @@
+body {
+  background-color: orange;
+}
+
+h1,h2{
+  color: white;
+  font-family: Tahoma, Garamond, "Times New Roman", serif;
+}
+
+h1 {
+  margin-bottom: 1px;
+  margin-top: 1px;
+  
+}
+ 
+p {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+.main {
+  padding: 40px;
+  background-color: orange;
+  /* border: 2px solid orange; */
+}
+
+#first-p{
+  margin-top:1px;
+}
+
+#second-p{
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-container > div {
+  background-color: orange;
+  margin: 0px;
+  padding: 20px;
+}
